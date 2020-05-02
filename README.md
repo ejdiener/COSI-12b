@@ -1,1 +1,1 @@
-# COSI12b-Final-Project
+# COSI-12b
