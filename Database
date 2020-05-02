@@ -1,0 +1,24 @@
+//Elizabeth Diener, Pedro Estrada
+//COSI-12B-1 PA07
+//
+
+import java.util.*;
+
+public class Database {
+//Variable Declaration Zone ↓
+
+//Variable Declaration Zone ↑
+
+  public void addTable (Table table) {
+  
+  }
+  
+  public void removeTable (Table table) {
+  
+  }
+  
+  public int addRowToTable (String tableName, String[] args) {
+  
+  }
+
+}
