@@ -3,3 +3,25 @@
 //Tuesday, 12 May, 2020
 
 import java.util.*;
+
+public class Table {
+      //Variable Declaration Zone ↓
+String tableName;
+TableColumns header;
+Stack<Row> table = new Stack<Row>();
+      //Variable Declaration Zone ↑
+
+    public table(String name, TableColumns columns) {
+        tableName = name;
+        header = columns;
+    }
+    
+    public void addRow(Row row) {
+        table.push(row);
+    }
+    
+    public String getName {
+        return tableName;
+    }
+
+}
