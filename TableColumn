@@ -3,3 +3,25 @@
 //Tuesday, 12 May, 2020
 
 import java.util.*;
+
+public class TableColumns {
+//Variable Declaration Zone ↓
+String[] columns;
+//Variable Declaration Zone ↑
+
+    public TableColumns(String[] columns) {
+        this.columns = columns;
+    }
+    
+    public int getSize() {
+        return columns.length;
+    }
+    
+    public int getColumn(String alias) {
+        for (int i=0; i<(columns.length); i++) {
+            if (columns[i].equals(alias)) {
+                return i;
+            }
+        }
+    }
+}
