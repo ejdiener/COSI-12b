@@ -9,15 +9,19 @@ public class Database {
 
 //Variable Declaration Zone ↑
 
-  public void addTable (Table table) {
+  public void addTable(Table table) {
   
   }
   
-  public void removeTable (Table table) {
+  public void removeTable(Table table) {
   
   }
   
-  public int addRowToTable (String tableName, String[] args) {
+  public int addRowToTable(String tableName, String[] args) {
+  
+  }
+  
+  public void undo() {
   
   }
 
